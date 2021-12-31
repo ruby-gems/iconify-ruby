@@ -27,6 +27,17 @@ Or install it yourself as:
 collections = Iconify::Ruby.collections
 locate = Iconify::Ruby.locate("bx")
 svg_path = locale["icons"]["bx-abacus"]["body"]
+
+# render svg string
+module ApplicationHelper
+  include Iconify::Ruby::Helper
+end
+```
+
+```erb
+<%== iconify_icon("bx-chevron-up", class: 'w-4 h-4 text-red-500') %>
+
+<%== iconify_icon("chevron-down", class: 'w-4 h-4 text-red-500', locate: 'akar-icons') %>
 ```
 
 ## Development
