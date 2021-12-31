@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 require_relative "lib/iconify/ruby/version"
-require 'pry'
+
 Gem::Specification.new do |spec|
   spec.name          = "iconify-ruby"
   spec.version       = Iconify::Ruby::VERSION
@@ -10,12 +10,12 @@ Gem::Specification.new do |spec|
 
   spec.summary       = "Iconify ruby tools."
   spec.description   = "Iconify ruby tools."
-  spec.homepage      = "https://github.com/doabit/iconify-ruby"
+  spec.homepage      = "https://github.com/ruby-gems/iconify-ruby"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "https://github.com/doabit/iconify-ruby"
-  spec.metadata["changelog_uri"] = "https://github.com/doabit/iconify-ruby"
+  spec.metadata["source_code_uri"] = "https://github.com/ruby-gems/iconify-ruby"
+  spec.metadata["changelog_uri"] = "https://github.com/ruby-gems/iconify-ruby"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
