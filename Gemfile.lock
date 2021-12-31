@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    iconify-ruby (0.1.0)
+    iconify-ruby (0.3.0)
 
 GEM
   remote: https://rubygems.org/
@@ -15,7 +15,9 @@ GEM
     rake (13.0.6)
 
 PLATFORMS
+  ruby
   x86_64-darwin-18
+  x86_64-linux
 
 DEPENDENCIES
   iconify-ruby!
