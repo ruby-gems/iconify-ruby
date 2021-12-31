@@ -1,0 +1,3 @@
+[submodule "iconify-json"]
+	path = iconify-json
+	url = https://github.com/iconify/collections-json.git
