@@ -1,8 +1,9 @@
 require_relative "./test_helper"
 
 module Fake
-  extend self
-  include Iconify::Ruby::Helper
+  class << self
+    include Iconify::Ruby::Helper
+  end
 end
 
 describe Iconify::Ruby::Helper do
